@@ -60,10 +60,6 @@ public class ClassePrincipalDoProjeto {
         char d = 'v';
         System.out.println("A==v "+(g==d));
         System.out.println("A!=v "+(g!=d));
-        System.out.println("A>=v "+(g>=d));
-        System.out.println("A<=v "+(g<=d));
-        System.out.println("A>v "+(g>d));
-        System.out.println("A<v "+(g<d));
 
         //trabalhando com tipo String
         String primeiroNome = "Pedro";
