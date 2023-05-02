@@ -1,4 +1,4 @@
-package src;
+package src.operadoresRelacionais;
 
 public class ClassePrincipalDoProjeto {
 
