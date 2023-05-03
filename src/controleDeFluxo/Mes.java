@@ -3,6 +3,7 @@ package src.controleDeFluxo;
 public class Mes {
 
  private String mes;
+ private int dias;
 
     public void setMes(String mes) {
          this.mes = mes;
@@ -18,6 +19,10 @@ public class Mes {
         }else {
             System.out.println("não estamos de ferias");
         }
+    }
 
+    public int mesEmDias(int dia) {
+        this.dias = dia;
+        return dias;
     }
 }
